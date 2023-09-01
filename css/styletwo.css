@@ -1,0 +1,174 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(to right, green, purple);
+  margin-bottom: 200px;
+}
+.logo img{
+  width: 80px;
+}
+nav{
+  position: sticky;
+  margin: 2% auto;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  width: 90%;
+
+}
+.logo{
+  flex-basis: 20%;
+}
+.logo-link{
+  flex: 1;
+  text-align: right;
+
+}
+.logo-link ul li{
+  margin: 30px;
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.information{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 15px;
+  
+}
+#circle{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: rotate(180deg);
+  transition: 2s;
+}
+.feature img{
+  width: 80px;
+}
+.feature{
+  position: absolute;
+  display: flex;
+  padding-top: 20%;
+}
+.one{
+  bottom:  60px;
+  right: 350px;
+}
+.two{
+  bottom: 700px;
+  left: 350px;
+}
+.three{
+  top: 400px;
+  right: 40px;
+}
+.four{
+  top: 260px;
+  left: 100px;
+}
+.five{
+  top: 200px;
+  left: 70px;
+}
+.six{
+  top: 160px;
+  right: 80px;
+}
+.mobile{
+  position: absolute;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 200px;
+  top: 540px;
+  left: 400px;
+}
+
+
+
+.feature  h1{
+  margin: 15px;
+  color: black;
+  
+  
+  
+  
+}
+
+
+.controls{
+  position: absolute;
+  transform: translateY(-50%);
+  top: 600px;
+  right: 500px;
+  text-align: center;
+}
+
+.controls h3{
+  margin: 10px 0;
+  color: white;
+ 
+}
+#upclick{
+width: 70px;
+cursor: pointer;
+}
+
+#downclick{
+  width: 70px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+
+.overlay{
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 500px solid purple;
+  border-left: 500px solid  gainsboro;
+  border-top: 500px solid white;
+  border-bottom: 500px solid white;
+  
+}
+.production {
+  text-align: center;
+  background-color: gray;
+  color: white;
+font-weight: bold;
+padding: 20px;
+
+  
+
+}
+.last{
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+padding: 40px;
+margin-top: 13px;
+
+
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+

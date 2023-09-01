@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styletwo.css">
+</head>
+<body>
+  <div class="production">
+    <h1>welcome to nkanta film production center where we produce all kinds of movies <br> either Nollywood, Hollywood etc <br> </h1>
+    <h2>
+      We as well specilize on training Animals, keeeping them in good conditions  <br> the table below shows the features of our products 
+    </h2>
+
+  </div>
+  <div   class="main">
+    <nav>
+      <div class="logo">
+        <img src="./img/loga.jpeg" alt="">
+
+      </div>
+      <div class="logo-link">
+        <ul>
+          <li><a href="media.html">Media</a></li>
+          <li>produce</li>
+          <li>investment</li>
+          <li>client</li>
+        </ul>
+
+      </div>
+    </nav>
+    <div  class="information">
+      <div class="overlay"></div>
+     
+      <img  class="mobile" src="./img/center.png" alt="">
+
+     
+
+
+        <div  id="circle">
+          <div  class="feature one">
+            <img src="./img/homelogo34.jpg" alt="">
+            <div>
+              <h1>camera</h1>
+            </div>
+          </div>
+          <div  class="feature two">
+            <img src="./img/notification.jpg" alt="">
+            <div>
+              <h1>download</h1>
+            </div>
+          </div>
+          <div  class="feature three">
+            <img src="./img/upload.jpg" alt="">
+            <div>
+              <h1>provision</h1>
+            </div>
+          </div>
+          <div  class="feature four">
+            <img src="./img/voice.png" alt="">
+            <div>
+              <h1>playstore</h1>
+            </div>
+          </div> 
+          
+         
+
+        
+          </div>
+         
+          </div> 
+        
+  
+
+  <div  class="controls">
+    <img  id="upclick" src="./img/upload.jpg" alt="">
+    <h3>features</h3>
+    <img  id="downclick" src="./img/upload.jpg" alt="">
+
+  </div>
+
+  
+  <script>
+    var circle = document.getElementById("circle");
+    var upclick = document.getElementById("upclick");
+    var downclicl= document.getElementById("downclick");
+
+    var rotatevalue = circle.style.transform;
+    var rotatesum;
+
+    upclick.onclick = function() {
+        rotatesum = rotatevalue + "rotate(-90deg)";
+        circle.style.transform = rotatesum;
+        rotatevalue = rotatesum; }
+
+        downclick.onclick = function() {
+        rotatesum = rotatevalue + "rotate(90deg)";
+        circle.style.transform = rotatesum;
+        rotatevalue = rotatesum;
+
+    }
+
+
+</script>
+</body>
+</html>
